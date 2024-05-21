@@ -2,7 +2,7 @@
 const display = document.getElementById("display");
 const operatorBtn = document.querySelector('.operator-btn');
 
-document.body.style.backgroundColor = "gray"; // Change "gray" to your desired color
+document.body.style.backgroundColor = gray; // Change "gray" to your desired color
 // document.body.style.backgroundColor = "lightgreen";
 function appendToDisplay(input){
     display.value += input;
